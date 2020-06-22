@@ -1,0 +1,48 @@
+/* styles for my css demo */
+
+body {
+    background-color: pink;
+/*    background-image: url("assets/1.jpg");*/
+    color: deeppink;
+/*    text-align: center;*/
+}
+
+a img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 1rem auto;
+    background-color: green;
+}
+
+h1 {
+    color: rgba(50,50,124,.5);
+}
+
+a:link {
+    color: seagreen;
+    display: inline-block;
+}
+
+a:visited {
+    color: darkgreen;
+}
+
+a:hover {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    background-color: deeppink;
+    color: white;
+    text-decoration: line-through;
+}
