@@ -14,59 +14,50 @@ body {
     background-color: #bdd8e8;
     color: white;
     font-family: sonyaFont, sans-serif;
-
-/*
-    margin: 0;
-    padding: 0;
-    height: 98vh;
-*/
 }
-
-
 
 .mainContainer {
-    
+    height: 98vh;
+    display: block;
 }
 
-/*
-.header {
-    display: flex;
-    justify-content: space-between;
-    background-color: #bdd8e8;
-    top: 0;
-    z-index: 100;
-}
-*/
-
-/*
-.panelWindow {
-    position: relative;
-}
-*/
-/*
-
-img.titleImg {
+.titleImg {
     height: 8vh;
     margin: 1vh;
 }
-*/
 
 .comicPanel {
-    height: 500px;
-    margin: 1px;
-}
-
-/*
-.headerURL {
-    font-family: sonyaFont, sans-serif;
-    font-size: 2rem;
+    height: 80vh;
     margin: 1vh;
 }
-*/
 
-
-
+.header { 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
 /*
+    display: block;
+    background-color: #bdd8e8;
+    height: 10vh;
+    top: 0;
+    z-index: 100;
+*/
+}
+
+.panelWindow {
+    
+}
+
+
+
+.headerURL {
+    font-family: sonyaFont, sans-serif;
+    font-size: 1rem;
+}
+
+
+
 .mobileButton {
     position: absolute;
     left: 15%;
@@ -78,4 +69,3 @@ img.titleImg {
     left: 50%;
     bottom: 50%;
 }
-*/
