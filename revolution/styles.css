@@ -1,0 +1,81 @@
+/*styles for assignment 6*/
+
+@font-face {
+    font-family: "sonyaFont";
+    src: url("Sonyafont-Regular.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #bdd8e8;
+    color: white;
+    font-family: sonyaFont, sans-serif;
+
+/*
+    margin: 0;
+    padding: 0;
+    height: 98vh;
+*/
+}
+
+
+
+.mainContainer {
+    
+}
+
+/*
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #bdd8e8;
+    top: 0;
+    z-index: 100;
+}
+*/
+
+/*
+.panelWindow {
+    position: relative;
+}
+*/
+/*
+
+img.titleImg {
+    height: 8vh;
+    margin: 1vh;
+}
+*/
+
+.comicPanel {
+    height: 500px;
+    margin: 1px;
+}
+
+/*
+.headerURL {
+    font-family: sonyaFont, sans-serif;
+    font-size: 2rem;
+    margin: 1vh;
+}
+*/
+
+
+
+/*
+.mobileButton {
+    position: absolute;
+    left: 15%;
+    bottom: 20%;  
+}
+
+.startButton {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+}
+*/
