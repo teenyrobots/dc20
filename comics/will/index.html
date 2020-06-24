@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<!--the HTML tag is the parent to all content -->
+<html lang="en">
+
+    <!--the head is where we keep information about our document-->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Logarithms</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <!-- the body is where all the content we want to display goes-->
+    <body>
+        <audio id=clickClack> 
+            <source src="assets/clickClack.mp3" type="audio/mpeg">
+        </audio>
+        <audio id=swoopDeLoop> 
+            <source src="assets/swoopDeLoop.mp3" type="audio/mpeg">
+        </audio>
+        <audio id=swoopDeLoop2> 
+            <source src="assets/swoopDeLoop.mp3" type="audio/mpeg">
+        </audio>
+        <audio id=wooHoo> 
+            <source src="assets/wooHoo.mp3" type="audio/mpeg">
+        </audio>
+        
+        <!-- h1 and p are tags that style text-->
+        <h1 id="top" class=headerText>LEARN LOGARITHMS </h1>
+        <p>by WBB. All these images will be redrawn/resized so they're not just my scrappy thumbs.</p>
+        <img src="assets/1.jpg" alt="1">
+        <img src="assets/2.jpg" alt="2" class=toTheRight>
+        <img src="assets/crab1.gif" alt="crab gif" id="crab1">
+        <img src="assets/3.jpg" alt="3" class=toTheLeft>
+        <img src="assets/4.jpg" alt="4">
+        <img src="assets/guessCheck.gif" alt="guess and check">
+        <img src="assets/4a.jpg" alt="4">
+        <form class="myFormContent">
+            <div class="oneLine">
+                <div>
+                    8
+                </div>
+                <div>
+                    <label for="number1"></label>
+                    <input type="text" name="number1" class="number1" id="number1" required>
+                </div>
+                <div class="equalSign">
+                      =
+                </div>
+                <div id="theAnswer1">
+                    
+                </div>
+            </div>
+                
+          <div>
+            <input type="button" id="submitButton1" value="Try it!!">
+          </div>
+            
+        </form>
+
+        <!-- this is where I'm goign to put the result of the math that I do in my script file -->
+
+
+        <img src="assets/5.jpg" alt="5" class=toTheRight>
+        <img src="assets/6.jpg" alt="6" class=leftUp>
+        <img src="assets/sound.jpg" alt="sound on" class="sound1" id="sound1">
+        <img src="assets/7.jpg" alt="7">
+        <img src="assets/12a.jpg" alt="12a">
+        <img src="assets/scary.gif" alt="scared octopus" id="scared">
+        <img src="assets/8.jpg" alt="8">
+        <img src="assets/theExponent.gif" alt="exponent gif">
+        <img src="assets/9.jpg" alt="9">
+        <img src="assets/10.jpg" alt="10">
+        <img src="assets/11.jpg" alt="11">
+        
+                <!-- Forms are how we get information from the reader -->
+        <form class="myFormContent">
+            <div class="oneLine">
+                <div>
+                    Log
+                </div>
+                <div>
+                    <label for="number2"></label>
+                    <input type="text" name="number2" id="number2" required>
+                </div>
+                <div>
+                    <label for="number3"></label>
+                    <input type="text" name="number3" id="number3" required>
+                </div>
+                <div class="equalSign">
+                      =
+                </div>
+                <div id="theAnswer2">
+                    
+                </div>
+            </div>
+                
+          <div>
+            <input type="button" id="submitButton2" value="Try it!!">
+          </div>
+            
+        </form>
+
+        
+        
+        <div class="myFormContent">
+            <div class="oneLine">
+                <div id="base" >
+                </div>
+                <div class="number1" id="exponent">
+                </div>
+                <div class="equalSign" id="equalSign1">
+                      =
+                </div>
+                <div id="answer">
+                    
+                </div>
+            </div>
+            
+        </div>
+        
+
+        <img src="assets/sound.jpg" alt="sound on" class="sound1" id="sound2">
+        <img src="assets/switchForms.gif" alt="gif switching from log to exponential forms">
+        <img src="assets/12.jpg" alt="12">
+        <img src="assets/13.jpg" alt="13">
+        <img src="assets/14.jpg" alt="14">
+        <img src="assets/15.jpg" alt="15">
+        <img src="assets/sound.jpg" alt="sound on" class="sound3" id="sound3">
+        <img src="assets/16.jpg" alt="16">
+        <img src="assets/17.jpg" alt="17">
+        <div id="bigEquation">
+            <img src="assets/equation1.jpg" class="trigger1">
+            <img src="assets/equation2.jpg" class="trigger2">
+            <img src="assets/equation3.jpg" class="trigger3">
+            <img src="assets/equation4.jpg" class="trigger4">
+        </div>
+    
+
+    <!-- HIDDEN / POP-UP DIV -->
+        <div class="pop-up" id="pop-up1">
+            <p>
+        This is the starting police budget
+            </p>
+      
+        </div>
+        <div class="pop-up" id="pop-up2">
+            <p>
+        This is the percent of the current year's budget we have for the next year. Defunding by 5% means that next year will have 95% of this year's budget.
+            </p>
+      
+        </div>
+        <div class="pop-up" id="pop-up3">
+            <p>
+        How many years this will take! This is what we are solving for.
+            </p>
+      
+        </div>
+        <div class="pop-up" id="pop-up4">
+            <p>
+        What we want the budget to be! $1 is plenty for the police.
+            </p>
+      
+        </div>
+        <img src="assets/sound.jpg" alt="sound on" class="sound1" id="sound4">
+        <img src="assets/18.jpg" alt="18">
+        <img src="assets/19.jpg" alt="19">
+        
+        <form class="myFormContent">
+            <div class="oneLine">
+                <div>
+                   Current Police Budget   $
+                </div>
+                <div>
+                    <label for="policeBudget"></label>
+                    <input type="text" name="policeBudget" id="policeBudget" required>
+                </div>
+            </div>
+            <div class="oneLine">
+                <div class="equalSign">
+                      Rate of defunding    $
+                </div>
+                <div>
+                    <label for="defundingRate"></label>
+                    <input type="text" name="defundingRate" id="defundingRate" required>
+                      %
+                </div>
+            </div>
+            <div class="oneLine">
+                <div class="equalSign">
+                      What do you want their budget to be? $1? The current school budget?  
+                </div>
+                <div>
+                    <label for="futureBudget"></label>
+                    <input type="text" name="futureBudget" id="futureBudget" required>
+                </div>
+            </div>
+            <div class="oneLine">
+                <div id="numberOfYears">
+                    years
+                </div>
+            </div>
+                
+            <div class="oneLine">
+                <input type="button" id="submitButton3" value="Try it!!">
+            </div>
+            
+        </form>
+
+        <script
+			  src="http://code.jquery.com/jquery-3.5.1.slim.min.js"
+			  integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+			  crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+
+</html>
