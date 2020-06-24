@@ -1,0 +1,140 @@
+html {
+    background-image: url(assets/prototype/grain_Background.gif);
+}
+
+.mainContainer {
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    position: relative;
+}
+
+.mainContainer * {
+    max-width: 100%;
+}
+
+
+.title {
+    margin: auto;
+    padding-top: 2.em;
+    position: absolute;
+
+}
+
+.buildings{
+    position: absolute;
+    top: 15%;
+    left: 0;
+}
+
+.panel3{
+    position: absolute;
+    top: 100;
+    left: 0;
+}
+
+.buildingbottom{
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+}
+
+.p1p3{
+    position: absolute;
+    left: -4%;
+    max-width: 60%;
+    top:59%
+}
+
+.p1p4{
+    position: absolute;
+    max-width: 50%;
+    top:67%;
+    left: 54%
+}
+
+.taxi1{
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    
+}
+
+.taxi2{
+    position: absolute;
+    left: 35%;
+    top: 45%;
+}
+
+.building2{
+    position: absolute;
+    right: 0%;
+    bottom: 0%
+}
+
+.subcontainerpg2{
+    top: static;
+
+}
+
+.p2p1{
+    padding-top: 30em;
+    position: absolute
+    right: 20%;
+}
+
+.p2p1a{
+    position: absolute;
+    top:0%;
+    left:20%;
+    padding-top: 2em;
+}
+
+
+.p2p2{
+    position: absolute;
+    max-width: 80%;
+    top: 62%;
+    left: 8%;
+    
+}
+
+.p2p3{
+    position: absolute;
+    max-width: 40%;
+    right: 3%;
+    top: 85%
+}
+
+.p2p5{
+    position: absolute;
+    max-width: 100%;
+    top:110%;
+    right: 25%;
+    padding-bottom: 2em;
+}
+
+.p2p6{
+    position: absolute;
+    top:158%;
+    right: 26%;
+    padding-bottom: 2em;
+}
+
+.p2p7{
+    position: absolute;
+    top: 170%;
+    left: 25%;
+}
+
+.p2p8{
+    position: absolute;
+    top:197%;
+    right: 30
+    
+}
+
+.mcpg3{
+    position: absolute;
+}
+    
