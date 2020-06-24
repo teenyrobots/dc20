@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 15px;
+    color: #fff;
+    margin: 0;
+}
+
+h1 {
+    font-family: Helvetica;
+    font-size: 50px;
+    color: #fff;
+    margin: 0;
+}
+        
+p {
+    font-family: Helvetica;
+    font-size: 15px;
+    color: #fff;
+    margin: 0;
+}
+            
+a:link, a:visited {
+    font-family: Helvetica;
+    font-size: 15px;
+    color: #fff;
+    margin: 0;
+}
+            
+a:hover, a:active {
+    font-family: Helvetica;
+    font-size: 15px;
+    color: #ccc;
+    margin: 0;
+}
+
+#mainContainer {
+    background-color: transparent;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    border: 1px solid transparent;    
+    -webkit-transition: border 0.1s linear, box-shadow 0.1s linear;
+       -moz-transition: border 0.1s linear, box-shadow 0.1s linear;
+            transition: border 0.1s linear, box-shadow 0.1s linear;
+}
+
+#mainContainer.active {
+    border-color: transparent;
+    -webkit-box-shadow: 0 0 50px #fff;
+       -moz-box-shadow: 0 0 50px #fff;
+            box-shadow: 0 0 50px #fff;
+}
