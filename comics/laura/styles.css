@@ -1,0 +1,42 @@
+/* styles for First Draft */
+
+
+.homepage {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;    
+    justify-content: center; 
+}
+.homeimage {
+    position:relative;
+}
+
+.buttonholder {
+    position: absolute;
+}
+.nextpage {
+    position: relative;
+    top:13rem;
+    left:auto;
+    right:auto;
+    max-width:250px;   
+ }
+.mainContainer {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: auto;
+
+}
+img {
+    display:block;
+    max-width:100%;      
+}
+
+#soundcontrol {
+    cursor:pointer;
+}
+    
