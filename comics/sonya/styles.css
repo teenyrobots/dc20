@@ -1,0 +1,240 @@
+/*styles for assignment 6*/
+
+@font-face {
+    font-family: "sonyaFont";
+    src: url("Sonyafont-Regular.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #bdd8e8;
+    color: white;
+    font-family: sonyaFont, sans-serif;
+}
+
+.mainContainer {
+    height: 98vh;
+    display: block;
+}
+
+.header {
+    margin: 1vh;
+   /*
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+*/
+/*    background-color: #bdd8e8;*/
+    
+}
+
+.panelWindow {
+/*    height: 80vh;*/
+    max-height: 80vh;
+    display: inline-flex;
+/*    justify-content: space-evenly;  */
+}
+
+.titleImg {
+    height: 8vh;
+/*    margin: 1vh;*/
+}
+
+.headerURL {
+    font-family: sonyaFont, sans-serif;
+    font-size: 2rem;
+}
+
+.comicPanel {
+    max-height: inherit;
+    position: relative;
+    margin: 1vh;
+}
+
+.panelBackground {
+    max-height: inherit;
+}
+
+.mobileButton {
+    position: absolute;
+    left: 15%;
+    bottom: 20%;  
+}
+
+.startButton {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+}
+
+.page2Balloon {
+    position: absolute;
+    max-height: 102%;
+    left: 0;    
+}
+
+.page3Balloon {
+    position: absolute;
+    max-height: 50%;
+    left: 10%;
+    top: 20%;
+}
+
+.page4Balloon {
+    position: absolute;
+    max-height: 70%;
+    left: 40%;
+    top: 20%;
+}
+
+.page5Balloon {
+    position: absolute;
+    max-height: 70%;
+    left: 40%;
+    top: 20%;
+}
+
+.page6Balloon {
+    position: absolute;
+    max-height: 70%;
+    left: 40%;
+    top: 20%;
+}
+
+.page7Balloon {
+    position: absolute;
+    max-height: 50%;
+    left: 15%;
+    top: 20%;  
+}
+
+.page8-panel1Balloon {
+    position: absolute;
+    max-height: 50%;
+    left: 15%;
+    top: 20%;  
+}
+
+.page8-panel2Balloon {
+    position: absolute;
+    max-height: 50%;
+    left: 15%;
+    top: 20%;  
+}
+
+.page8-panel3Balloon {
+    position: absolute;
+    max-height: 50%;
+    left: 15%;
+    top: 20%;  
+}
+
+.page10Balloon {
+    position: absolute;
+    max-height: 50%;
+    left: 10%;
+    top: 15%;  
+}
+
+.page10Kid {
+    position: absolute;
+    max-height: 50%;
+    left: 50%;
+    top: 40%;  
+}
+
+.page11Balloon {
+    position: absolute;
+    max-height: 60%;
+    left: 25%;
+    top: 10%;  
+}
+
+.page11Kid {
+    position: absolute;
+    max-height: 65%;
+    left: 26%;
+    top: 22%;  
+}
+
+.page12Balloon {
+    position: absolute;
+    max-height: 102%;
+    top: 0;
+    left: 7%;
+}
+
+.page13Balloon {
+    position: absolute;
+    max-height: 25%;
+    left: 40%;
+    top: 18%;  
+}
+
+.page13Kid {
+    position: absolute;
+    max-height: 40%;
+    left: 33%;
+    top: 50%;  
+}
+
+.page14Balloon {
+    position: absolute;
+    max-height: 25%;
+    left: 40%;
+    top: 18%;  
+}
+
+.car1 {
+    position: absolute;
+    max-height: 10%;
+    left: 27%;
+    top: 20%;  
+}
+
+.car2 {
+    position: absolute;
+    max-height: 10%;
+    left: 72%;
+    top: 75%;  
+}
+
+.car3 {
+    position: absolute;
+    max-height: 10%;
+    left: 45%;
+    top: 60%;  
+}
+
+.car4 {
+    position: absolute;
+    max-height: 10%;
+    left: 27%;
+    top: 50%;  
+}
+
+.page6-car2 {
+    position: absolute;
+    max-height: 10%;
+    left: 72%;
+    top: 75%;  
+}
+
+.page6-car3 {
+    position: absolute;
+    max-height: 10%;
+    left: 45%;
+    top: 60%;  
+}
+
+.page6-car4 {
+    position: absolute;
+    max-height: 10%;
+    left: 27%;
+    top: 50%;  
+}
