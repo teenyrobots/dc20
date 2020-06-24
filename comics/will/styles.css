@@ -23,12 +23,14 @@ img{
 
 .toTheRight{
     position: relative;
-    left: 10rem;
+    left: 20%;
+    width: 75%;
 }
 
 .toTheLeft{
     position: relative;
-    right: 10rem;
+    right: 20%;
+    width: 75%;
 }
 
 .leftUp{
@@ -144,7 +146,14 @@ img{
     justify-content: center;
     align-items: center;
     background-color:pink;
-    
+}
+
+.trigger1 {
+    width: 35%;
+}
+
+.trigger2 {
+    width: 10%;
 }
 
  div.pop-up {

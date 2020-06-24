@@ -23,7 +23,7 @@ $('form').keypress(function(event) {
         $("#theAnswer1").text("We can only do math on numbers! Try again.");
 
       } else {
-
+          
         // run the function where we did all our math!
         // store the result of that math in a variable called "newValue"
         let newValue = Math.round(doSomeMath(submitValue)*1000)/1000;
@@ -137,10 +137,11 @@ $('form').keypress(function(event) {
 
       } else if (policeBudget < 0 || defundingRate < 0 || futureBudget < 0) { 
         $("#numberOfYears").text("Use a positive number. Try again.");
-      } else if (futureBudget === 0) { 
-            futureBudget=0.01;
       } else {
-
+        if (futureBudget === 0) { 
+            futureBudget =0.01;
+        };
+        console.log(futureBudget);
         // run the function where we did all our math!
         // store the result of that math in a variable called "newValue"
         let newValue = Math.round(doMath3(policeBudget, defundingRate, futureBudget)*10000)/10000;
@@ -149,7 +150,6 @@ $('form').keypress(function(event) {
 
         // show the answer in the appropriate area on the page
         $("#numberOfYears").append("<p>"+newValue+" years<p>");
-          console.log(newValue);
       }
 
   });
