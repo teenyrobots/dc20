@@ -64,43 +64,43 @@ a:active {
 .wind {
     position: absolute;
     max-width: 75px;
-    top: 200px;
-    left: 725px;
+    top: 130px;
+    left: 230px;
 }
 
 .nestFlapButton {
     position: absolute;
     max-width: 75px;
-    top: 440px;
-    left: 800px;
+    top: 460px;
+    left: 830px;
 }
 
 .imgChanger {
     max-width: 250px;
     position: absolute;
-    top: 425px;
-    left: 530px;
+    top: 455px;
+    left: 580px;
 }
 
 .descentButton {
     max-width: 75px;
     position: absolute;
-    top: 800px;
-    left: 200px;
+    top: 830px;
+    left: 195px;
 }
 
 .descent {
     max-width: 800px;
     position: absolute;
-    top: 740px;
+    top: 770px;
     left: 285px;
 }
 
 .featherMochaButton {
     max-width: 75px;
     position: absolute;
-    top: 1350px;
-    left: 2290px;
+    top: 1355px;
+    left: 2265px;
     
 }
 
@@ -108,91 +108,91 @@ a:active {
     max-width: 250px;
     position: absolute;
     top: 1250px;
-    left: 2230px;
+    left: 2200px;
 }
 
 .garbageFeather {
     max-width: 75px;
     position: absolute;
     top: 2280px;
-    left: 1630px;
+    left: 1620px;
 }
 
 .garbage {
     max-width: 550px;
     position: absolute;
     top: 2050px;
-    left: 1650px;
+    left: 1630px;
 }
 
 .coo {
     position: absolute;
     max-width: 75px;
-    top: 2970px;
-    left: 1945px;
+    top: 3010px;
+    left: 1825px;
 }
 
 .featherCup{
     max-width: 75px;
     position: absolute;
-    top: 2800px;
-    left: 2800px;
+    top: 2670px;
+    left: 2950px;
 }
 
 .cup {
     max-height: 400px;
     position: absolute;
-    top: 2800px;
-    left: 2550px;
+    top: 2730px;
+    left: 2500px;
 }
 
 .overhead {
     position: absolute;
     max-width: 75px;
-    top: 3325px;
-    left: 3610px;
+    top: 3305px;
+    left: 3410px;
 }
 
 .crowd {
     position: absolute;
     max-width: 75px;
     top: 3800px;
-    left: 3895px;
+    left: 3755px;
 }
 
 .rustle {
     position: absolute; 
     max-width: 75px;
-    top: 4550px;
-    left: 5820px;
+    top: 4690px;
+    left: 5680px;
 }
 
 .featherShoo {
     max-width: 75px;
     position: absolute;
-    top: 5840px;
-    left: 7780px;
+    top: 5740px;
+    left: 7625px;
 }
 
 .shoo {
     max-width: 1000px;
     position: absolute;
-    top: 5700px;
-    left: 7250px;
+    top: 5620px;
+    left: 7200px;
 }
 
 .bridgeLand {
     max-width: 75px;
     position: absolute;
-    top: 8600px;
+    top: 8500px;
     left: 8925px;
 }
 
 .bridge {
     max-height: 600px;
     position: absolute;
-    top: 8150px;
-    left: 8520px;
+    top: 8100px;
+    left: 8430px;
 }
 
 .flyaway {
@@ -205,8 +205,8 @@ a:active {
 .return {
     position: absolute;
     max-width: 90px;
-    top: 10200px;
-    left: 9110px;
+    top: 10080px;
+    left: 9050px;
 }
 
 #wind {
