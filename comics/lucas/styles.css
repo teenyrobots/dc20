@@ -7,6 +7,20 @@
     src:    url("KaushanScript-Regular.otf");
 }
 
+body {
+    padding-top: 9rem;
+    text-align: center;
+}
+
+body img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:0 auto;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
 .titleContainer {
     width: 100%;
     position: fixed;
@@ -24,182 +38,24 @@ h1 {
     letter-spacing: .3rem;
 }
 
-#draftLine{
-    font-size: .8rem;   
-    margin-bottom: .4rem;
-}
-
 p {
     font-size: 1.1rem;
     font-family: "Kaushan";
     color: black;
     margin-top: -.5rem;
 }
+#withSam {
+    position: relative;
+    top: -.5rem;
+    font-size: .9rem;
+}
 
 img{
     max-width: 100%;
 }
 
-body {
-    padding-top: 8rem;
-}
-
-body img {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin:0 auto;
-    padding-bottom: 2rem;
-    padding-top: 1rem;
-}
-
-#panel5 {
-    padding-top: 8rem;
-    transform: translateX(-14rem);
-}
-#panel6 {
-    transform: translateX(3rem);
-}
-#panel7 {
-    transform: translateX(18rem);
-}
-#panel8 {
-    transform: translateX(-12rem);
-}
-
-#soundControl1 {
-    padding: 0;
-    position: relative;
-    top: -18rem;
-    left: 4rem;
+.sfxcontrol {
     cursor: pointer;
-}
-
-#panel9 {
-    transform: translateX(9rem);
-    padding-top: 2rem;
-}
-
-.partTwo {
-    text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 3rem;
-}
-
-#panel11 {
-    transform: translateY(10rem);
-}
-#panel12 {
-    transform: translateY(28rem);
-}
-
-.partTwo img{
-    display: inline-block;
-    padding: 1rem;
-}
-
-.partThree {
-    text-align: center;
-    padding-top: 24rem;
-    padding-bottom: 16rem;
-}
-
-.partThree img{
-    display: inline-block;
-}
-#panel13{
-    border: .4rem solid red;
-}
-#panel14 {
-    padding-left: 2rem;
-    transform: translateY(18rem);
-    
-}
-#soundControl2 {
-    padding: 0;
-    position: relative;
-    right: 23rem;
-    top: 6rem;
-    cursor: pointer;
-}
-
-#panel15 {
-    padding-top: 3rem;
-    transform: translateX(-18rem);
-}
-
-.partFour {
-    text-align: center;
-    padding-left: 4rem;
-    padding-bottom: 6rem;
-}
-
-.partFour img{
-    display: inline-block;
-}
-
-#panel17 {
-    transform: translateY(4rem);
-    padding-left: 3rem;
-}
-#panel18{
-    transform: translateX(-18rem);
-}
-#panel19 {
-    transform: translateX(3rem);
-    padding-bottom: 10rem;
-}
-
-.partFive {
-    text-align: center;
-    padding-bottom: 6rem;
-}
-
-.partFive img {
-    display: inline-block;
-    padding: 2rem;
-}
-#panel21 {
-    transform: translateY(5rem);
-}
-#soundControl3 {
-    padding: 1rem;
-    position: relative;
-    bottom: 3rem;
-    right: 2rem;
-    cursor: pointer;
-}
-
-.partSix{
-    text-align: center;
-    padding-bottom: 7rem;
-}
-
-.partSix img {
-    display: inline-block;
-    padding: 2rem;
-}
-#panel23 {
-    transform: translateY(4rem);
-}
-#panel25 {
-    transform: translateX(-14rem);
-    padding-top: 7rem;
-    padding-bottom: 14rem;
-}
-#panel27 {
-    transform: translateX(-8rem);
-    padding-top: 3rem;
-    padding-bottom: 6rem;
-    
-}
-#panel28 {
-    transform: translateX(18rem);
-    padding-bottom: 5rem;
-    border: .4rem solid red;
-}
-#panel29 {
-    padding-bottom: 6rem;
 }
 
 a:link{
@@ -220,4 +76,9 @@ a:hover {
 
 a:active {
     text-decoration: overline underline;
+}
+
+#attribution {
+    position: relative;
+    text-align: center;
 }
