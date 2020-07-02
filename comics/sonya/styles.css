@@ -68,8 +68,8 @@ body {
 
 .startButton {
     position: absolute;
-    left: 50%;
-    bottom: 50%;
+    left: 10%;
+    bottom: -10%;
 }
 
 .page2Balloon {
@@ -137,29 +137,29 @@ body {
 .page10Balloon {
     position: absolute;
     max-height: 50%;
-    left: 10%;
-    top: 15%;  
+    left: -15%;
+    top: 5%;  
 }
 
 .page10Kid {
     position: absolute;
     max-height: 50%;
     left: 50%;
-    top: 40%;  
+    top: 30%;  
 }
 
 .page11Balloon {
     position: absolute;
     max-height: 60%;
-    left: 25%;
+    left: 5%;
     top: 10%;  
 }
 
 .page11Kid {
     position: absolute;
     max-height: 65%;
-    left: 26%;
-    top: 22%;  
+    left: 50%;
+    top: 18%;  
 }
 
 .page12Balloon {
@@ -172,7 +172,7 @@ body {
 .page13Balloon {
     position: absolute;
     max-height: 25%;
-    left: 40%;
+    left: 55%;
     top: 18%;  
 }
 
@@ -180,13 +180,13 @@ body {
     position: absolute;
     max-height: 40%;
     left: 33%;
-    top: 50%;  
+    top: 40%;  
 }
 
 .page14Balloon {
     position: absolute;
     max-height: 25%;
-    left: 40%;
+    left: 75%;
     top: 18%;  
 }
 
