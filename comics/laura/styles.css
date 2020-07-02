@@ -93,8 +93,9 @@ img {
     cursor:pointer;
 }
 .hiding {
-    visibility: hidden;
+    display: none;
 }
+
 .closer{
     cursor:pointer;
 }
