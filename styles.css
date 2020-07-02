@@ -4,6 +4,8 @@
 
 body {
   font-family: Roboto;
+    background-color: #383e56;
+    color: white;
 }
 
 h1 {
@@ -19,10 +21,9 @@ h1 {
 }
 
 .lists {
-  background-color: aliceblue;
   padding: 2rem;
   margin: 2rem auto;
-  border: black 1px solid;
+  border: #f69e7b 1px solid;
 }
 
 .lists ul {
@@ -30,5 +31,22 @@ h1 {
 }
 
 .lists li {
-  margin: .5rem auto;
+  margin: 5%;
+    font-size: 1.25rem;
+}
+
+a:link {
+    color: #eedad1;
+    padding: .25rem;
+    text-decoration: underline dotted #f69e7b;
+}
+
+a:visited {
+    color: #f69e7b;
+}
+
+a:hover, a:active {
+    background-color: #d4b5b0;
+    color: #383e56;
+    text-decoration: underline wavy #383e56;
 }
