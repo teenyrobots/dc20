@@ -1,7 +1,9 @@
 var glower = $('#mainContainer');
 
-glower.toggleClass('active');
-
 window.setInterval(function() {  
     glower.toggleClass('active');
-}, 5000);
+}, 7000);
+
+setTimeout(function(){
+    document.getElementById('breathe').style.display = "block";
+}, 7000);

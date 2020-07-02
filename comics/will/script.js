@@ -20,7 +20,7 @@ $('form').keypress(function(event) {
       if (isNaN(submitValue)) {
 
         // the first part of this function checks to see if the reader entered a number or "NaN" which is "Not a Number"
-        $("#theAnswer1").text("We can only do math on numbers! Try again.");
+        $("#theAnswer1").text("Enter a number! Try again.");
 
       } else {
           
@@ -28,12 +28,14 @@ $('form').keypress(function(event) {
         // store the result of that math in a variable called "newValue"
         let newValue = Math.round(doSomeMath(submitValue)*1000)/1000;
           
-        if (newValue < 218614) {
+        if (0.0001 < newValue && newValue < 218614) {
             $("#theAnswer1").text(newValue+"     ***TOO SMALL***");
         } else if (newValue > 218614){
             $("#theAnswer1").text(newValue+"     ***TOO BIG***");
         } else if (newValue === 218614){
             $("#theAnswer1").text(newValue+"  YOU GOT IT");
+        } else if (newValue < 0.0001){
+            $("#theAnswer1").text(" Very close to zero. ***TOO SMALL***");
         }
 
         // show the answer in the appropriate area on the page
@@ -95,7 +97,7 @@ $('form').keypress(function(event) {
       if (isNaN(log1) || isNaN(log2)) {
 
         // the first part of this function checks to see if the reader entered a number or "NaN" which is "Not a Number"
-        $("#theAnswer2").text("We can only do math on numbers! Try again.");
+        $("#theAnswer2").text("We can only do logs with numbers! Try again.");
 
       } else if (log2 < 0 || log1 < 0) { 
         $("#theAnswer2").text("We can't take the log of a negative. Try again.");
@@ -133,7 +135,7 @@ $('form').keypress(function(event) {
       if (isNaN(policeBudget) || isNaN(defundingRate) || isNaN(futureBudget)) {
 
         // the first part of this function checks to see if the reader entered a number or "NaN" which is "Not a Number"
-        $("#numberOfYears").text("We can only do math on numbers! Try again.");
+        $("#numberOfYears").text("We can only do logs with numbers! Try again.");
 
       } else if (policeBudget < 0 || defundingRate < 0 || futureBudget < 0) { 
         $("#numberOfYears").text("Use a positive number. Try again.");
@@ -155,7 +157,7 @@ $('form').keypress(function(event) {
   });
     
     $(function() {
-        var moveLeft = 20;
+        var moveLeft = 10;
         var moveDown = 10;
 
         $('img.trigger1').hover(function(e) {
@@ -174,7 +176,7 @@ $('form').keypress(function(event) {
     });
     
     $(function() {
-        var moveLeft = 20;
+        var moveLeft = 10;
         var moveDown = 10;
 
         $('img.trigger2').hover(function(e) {
@@ -193,7 +195,7 @@ $('form').keypress(function(event) {
     });
     
     $(function() {
-        var moveLeft = 20;
+        var moveLeft = 10;
         var moveDown = 10;
 
         $('img.trigger3').hover(function(e) {
@@ -212,7 +214,7 @@ $('form').keypress(function(event) {
     });
     
     $(function() {
-        var moveLeft = 20;
+        var moveLeft = 10;
         var moveDown = 10;
 
         $('img.trigger4').hover(function(e) {
