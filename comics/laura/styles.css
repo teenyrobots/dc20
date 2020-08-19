@@ -10,6 +10,10 @@ img {
     display: flex;
     margin:auto; 
 }
+
+#selfcheckout{
+    align-self: center;
+}
 .buttonholder {
     position: relative;
     width: 100%;
@@ -93,9 +97,8 @@ img {
     cursor:pointer;
 }
 .hiding {
-    display: none;
+    visibility: hidden;
 }
-
 .closer{
     cursor:pointer;
 }
